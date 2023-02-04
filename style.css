@@ -1,0 +1,152 @@
+
+
+
+.mainContainer {
+    
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 140px;
+}
+
+.par1 {
+    text-indent: 20px;
+    color: rgba(45, 179, 184, 0.76);
+    margin-left: 30px;
+}
+
+
+
+/*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}*/
+
+
+.NUTRITION {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: solid underline  rgba(45, 179, 184, 0.76);
+   
+}
+
+.nav-NUT {
+    
+    margin-left: 200px;
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+.image {
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    height: 300px;
+    background-image: url(https://www.tacobell.com/medias/nutrition-2020-003.jpg?context=bWFzdGVyfGltYWdlc3wyNTc3NzV8aW1hZ2UvanBlZ3xpbWFnZXMvaDFhL2hiNy85MDIzOTk2NTU5MzkwLmpwZ3w5YjgwYTEyOTE0OTMxM2U1YmJmODU3YTFiZmQ1MzRhNDI1ZDI2YjJiYTM0ODY5NmQ4NWMyMDRiZmE0MDYxYjRk);
+   
+    /* box-shadow: 10px 20px 10px #79c5c0; */
+}
+.food {
+   
+    margin-left: 80px;
+    font-weight: 850;
+}
+
+
+
+.navbar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex; 
+    justify-content: right;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+.logIn {
+
+    margin-right: 20px;
+    padding: 10px 24px;
+    border: solid rgba(88, 85, 85, 0.555);
+    color: rgba(105, 101, 101, 0.945);
+    box-shadow: 3px 3px 3px;
+}
+
+.logIn:hover {
+    border: solid purple;
+    color: purple;
+    /* transition: 5s; */
+}
+
+
+.nav-elements {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    display: flex;
+}
+
+.bar {
+    border-left: 0.5px solid rgba(45, 179, 184, 0.76);
+    height: 75%
+}
+
+.nav-elements li {
+    list-style: none;
+    color:rgba(45, 179, 184, 0.76);
+    font-weight: bold;
+}
+
+.underline {
+    margin-left: 150px;
+    border-top: 0.1px solid rgba(222, 222, 222, 0.562);
+}
+
+.logo1 {
+    position: fixed;
+    width: 100%;
+    padding-left: 10px;
+    
+    /* box-shadow: 3px 2px 10px #a48fc5; */
+
+}
+
+.imageContainer {
+    
+    width: 60%;
+    margin: auto;
+    
+    
+}
+
+.sidenav {
+    position: fixed;
+}
+
+.menu {
+    margin-top: 3px;
+    width: 125px;
+    height: 80px;
+    transform: skewY(-10deg);
+    background: #d8d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 2px 2px 10px #32313348 inset; */
+
+}
+
+.menu:hover {
+    cursor: pointer;
+    background: black;
+    color: whitesmoke;
+}
+
+.menu h3 {
+    text-align: center;
+}
+
+
+
+
